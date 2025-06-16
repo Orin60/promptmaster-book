@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromptMaster Book</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+        nav {
+            width: 250px;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+        nav h2 {
+            margin-top: 0;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>📘 PromptMaster</h2>
+        <strong>Úvod</strong>
+        <a href="content/01_Uvod/uvod.html" target="content">Úvod</a>
+        <strong>Frameworky</strong>
+        <a href="content/02_Frameworky/promptovaci_frameworky.html" target="content">Frameworky</a>
+        <strong>Praktické prompty</strong>
+        <a href="content/03_Prakticke_Prompty/strategie.html" target="content">Strategie</a>
+        <a href="content/03_Prakticke_Prompty/analyza.html" target="content">Analýza</a>
+        <a href="content/03_Prakticke_Prompty/vytvareni_agentu.html" target="content">Agentní systémy</a>
+        <a href="content/03_Prakticke_Prompty/kreativni_pouziti.html" target="content">Kreativní použití</a>
+        <strong>Šablony</strong>
+        <a href="content/04_Sablony/univerzalni_prompt_sablony.html" target="content">Univerzální šablony</a>
+        <strong>Přílohy</strong>
+        <a href="content/05_Prilohy/GPT_pluginy.html" target="content">GPT Pluginy</a>
+        <a href="content/05_Prilohy/uzitecne_nastroje.html" target="content">Užitečné nástroje</a>
+    </nav>
+    <main>
+        <iframe name="content" src="content/01_Uvod/uvod.html"></iframe>
+    </main>
+</body>
+</html>
